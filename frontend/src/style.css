@@ -1,0 +1,6 @@
+@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } }
+::-webkit-scrollbar { display: none; }
+.screen-picker { position: fixed; z-index: 1000; right: 14px; bottom: 14px; display: flex; align-items: center; gap: 8px; padding: 6px 9px; border: 1px solid #3c4a42; border-radius: 8px; background: rgba(10,14,22,.94); box-shadow: 0 8px 28px #0008; }
+.screen-picker span { color: #85948b; font: 10px/1 ui-monospace, monospace; letter-spacing: .12em; }
+.screen-picker select { appearance: none; padding: 4px 20px 4px 5px; border: 0; outline: 0; color: #dfe2ee; background: transparent; font: 12px/1.2 ui-sans-serif, system-ui; cursor: pointer; }
+.screen-picker option { color: #dfe2ee; background: #181c24; }
